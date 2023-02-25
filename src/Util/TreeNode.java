@@ -14,7 +14,7 @@ public class TreeNode {
     }
 
     /**
-     * Deconstruct tree in level order
+     * Construct tree in level order
      */
     public static TreeNode constructTree(Integer[] array) {
         if (array == null || array.length == 0) return null;
