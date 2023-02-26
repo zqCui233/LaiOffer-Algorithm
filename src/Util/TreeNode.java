@@ -49,7 +49,7 @@ public class TreeNode {
     /**
      * Deconstruct tree in level order
      */
-    public static List<List<Integer>> deconstruct(TreeNode root) {
+    public static List<List<Integer>> destruct(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
         if (root == null) return res;
 
