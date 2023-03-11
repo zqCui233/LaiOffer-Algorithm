@@ -7,4 +7,10 @@ public class Utils {
         array[j] = tmp;
     }
 
+    public static void swap(char[] array, int i, int j) {
+        char tmp = array[i];
+        array[i] = array[j];
+        array[j] = tmp;
+    }
+
 }
