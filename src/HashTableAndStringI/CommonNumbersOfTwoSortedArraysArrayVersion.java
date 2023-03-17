@@ -1,9 +1,7 @@
 package HashTableAndStringI;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 public class CommonNumbersOfTwoSortedArraysArrayVersion {
     public List<Integer> common(int[] A, int[] B) {
