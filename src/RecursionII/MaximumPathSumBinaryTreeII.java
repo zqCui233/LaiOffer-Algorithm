@@ -14,8 +14,8 @@ public class MaximumPathSumBinaryTreeII {
         int l = maxPathSum(root.left, max);
         int r = maxPathSum(root.right, max);
 
-         l = l < 0 ? 0: l;
-         r = r < 0 ? 0: r;
+         l = Math.max(l, 0);
+         r = Math.max(r, 0);
          max[0] = Math.max(max[0], root.key + l + r);
          return root.key + Math.max(l ,r);
     }
