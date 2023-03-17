@@ -13,4 +13,14 @@ public class Utils {
         array[j] = tmp;
     }
 
+    public static void reverse(char[] array, int i, int j) {
+        while (i < j) {
+            char tmp = array[i];
+            array[i] = array[j];
+            array[j] = tmp;
+            i++;
+            j--;
+        }
+    }
+
 }
